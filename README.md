@@ -1,2 +1,1 @@
-# MacOS
-.DS_Store
+# One Page Calendar

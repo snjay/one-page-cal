@@ -4,15 +4,15 @@
 
 I was inspired by this post on [HackerNews](https://news.ycombinator.com/item?id=21921165) to re-create a terminal version of the same calendar.
 
-At the moment, it's a simple Python script that runs and prints to stdout. The pixel calculations are all magic numbers that needs to be generalised. See the wishlist below, I will cross off tasks as I work through them.
+I have transposed the original design as I felt having the numbers on top makes it more readable. Along with the months on the side as reading left-to-right is more comprehensible for the human eye (atleast from a Westerner's perspective).
 
-I have also transposed the original design as I felt having the numbers on top makes it more readable. Along with the months on the side as reading left-to-right is more comprehensible for the human eye (atleast from a Westerner's perspective).
+At the moment, it's a simple Python script that runs and prints to stdout. The pixel calculations are all magic numbers that needs to be generalised. See the wishlist below, I will cross off tasks as I work through them.
 
 ## Usage
 
 Make sure you are running Python 3.6+
 
-```bash
+```plain
 $ python one_page_calendar.py
                   2020
                1   2   3   4   5   6   7

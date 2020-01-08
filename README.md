@@ -60,11 +60,11 @@ Jan Apr Jul | Wed Thu Fri Sat Sun Mon Tue
 
 ## How to read the one page calendar
 
-This variant of the one page calendar is really a glorified day look-up calendar. Given a date, you can look up what day it falls on.
+This variant of the one page calendar is really a glorified **day** look-up calendar. Given a *date*, you can look up what **day** it falls on.
 
 For example,
 
-> "What day does the 26th of January fall on this year?"
+> "What **day** does the *26th of January* fall on this year?"
 
 1. Find 26 on the left hand side
 2. Find Jan at the top.
@@ -77,7 +77,7 @@ Source: [Reddit](https://www.reddit.com/r/coolguides/comments/ad5dbu/onr_page_ca
 
 Another way to use it is to help answer a question such as,
 
-> "How many Friday the 13ths are there this year?"
+> "How many *Friday the 13ths* are there this year?"
 
 1. Find 13 on the left hand side
 2. Follow the days horizontally (from left to right) until you find Friday.

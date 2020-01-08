@@ -1,4 +1,4 @@
-from calendar import Calendar, day_abbr, month_abbr
+from calendar import Calendar, day_abbr, month_abbr, weekday
 from collections import defaultdict
 import time
 import sys
@@ -19,19 +19,15 @@ except ValueError:
 # Init a bucket which maps day to 
 # the month w/ the first day
 firstday2month = defaultdict(list)
-
 # Find the day of every month's 1st.
 c = Calendar()
 for month in range(1, len(month_abbr)):
-    for week in c.monthdays2calendar(year, month):
-        for day_num, day in week:
-            # Place the month into the day bucket
-            # e.g. if the Feb 1st falls on a Saturday
-            # then place Feb into the Sat bucket
-            if day_num == 1:
-                firstday2month[day].append(month)
-                break
-                
+    # Place the month into the day bucket
+    # e.g. if the Feb 1st falls on a Saturday
+    # then place Feb into the Sat bucket
+    day = weekday(year, month, 1)
+    firstday2month[day].append(month)
+             
 # Calculate the left padding
 # for printing the day grid below
 max_months = max([len(m) for m in firstday2month.values()])

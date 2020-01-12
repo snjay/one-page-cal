@@ -26,14 +26,14 @@ $ python one_page_calendar.py 2009
               15  16  17  18  19  20  21
               22  23  24  25  26  27  28
               29  30  31
-            ┌----------------------------
-        Jun | Mon Tue Wed Thu Fri Sat Sun
-    Sep Dec | Tue Wed Thu Fri Sat Sun Mon
-    Apr Jul | Wed Thu Fri Sat Sun Mon Tue
-    Jan Oct | Thu Fri Sat Sun Mon Tue Wed
-        May | Fri Sat Sun Mon Tue Wed Thu
-        Aug | Sat Sun Mon Tue Wed Thu Fri
-Feb Mar Nov | Sun Mon Tue Wed Thu Fri Sat
+            ┌────────────────────────────
+        Jun │ Mon Tue Wed Thu Fri Sat Sun
+    Sep Dec │ Tue Wed Thu Fri Sat Sun Mon
+    Apr Jul │ Wed Thu Fri Sat Sun Mon Tue
+    Jan Oct │ Thu Fri Sat Sun Mon Tue Wed
+        May │ Fri Sat Sun Mon Tue Wed Thu
+        Aug │ Sat Sun Mon Tue Wed Thu Fri
+Feb Mar Nov │ Sun Mon Tue Wed Thu Fri Sat
 ```
 
 If no year is specified, the current year is used.
@@ -46,14 +46,14 @@ $ python one_page_calendar.py
               15  16  17  18  19  20  21
               22  23  24  25  26  27  28
               29  30  31
-            ┌----------------------------
-        Jun | Mon Tue Wed Thu Fri Sat Sun
-    Sep Dec | Tue Wed Thu Fri Sat Sun Mon
-Jan Apr Jul | Wed Thu Fri Sat Sun Mon Tue
-        Oct | Thu Fri Sat Sun Mon Tue Wed
-        May | Fri Sat Sun Mon Tue Wed Thu
-    Feb Aug | Sat Sun Mon Tue Wed Thu Fri
-    Mar Nov | Sun Mon Tue Wed Thu Fri Sat
+            ┌────────────────────────────
+        Jun │ Mon Tue Wed Thu Fri Sat Sun
+    Sep Dec │ Tue Wed Thu Fri Sat Sun Mon
+Jan Apr Jul │ Wed Thu Fri Sat Sun Mon Tue
+        Oct │ Thu Fri Sat Sun Mon Tue Wed
+        May │ Fri Sat Sun Mon Tue Wed Thu
+    Feb Aug │ Sat Sun Mon Tue Wed Thu Fri
+    Mar Nov │ Sun Mon Tue Wed Thu Fri Sat
 ```
 
 ---

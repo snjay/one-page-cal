@@ -44,12 +44,12 @@ for i in range(1, 32):
 print()
 
 # Print horizontal sep of dashes
-print(''.join([' '.ljust(lpad+1), '┌', '-'*28]))
+print(''.join([' '.ljust(lpad+1), '┌', '─'*28]))
 
 # Print out months | days
 for i in range(len(day_abbr)):
     mx = ' '.join([month_abbr[m] for m in firstday2month[i]])
-    print(f"{mx.rjust(lpad, ' ')}", end=' | ')
+    print(f"{mx.rjust(lpad, ' ')}", end=' │ ')
     for j in range(len(day_abbr)):
         idx = (i+j) % len(day_abbr)
         print(day_abbr[idx], end=' ')

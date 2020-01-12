@@ -26,14 +26,14 @@ $ python one_page_calendar.py 2009
               15  16  17  18  19  20  21
               22  23  24  25  26  27  28
               29  30  31
-            ┌----------------------------
-        Jun | Mon Tue Wed Thu Fri Sat Sun
-    Sep Dec | Tue Wed Thu Fri Sat Sun Mon
-    Apr Jul | Wed Thu Fri Sat Sun Mon Tue
-    Jan Oct | Thu Fri Sat Sun Mon Tue Wed
-        May | Fri Sat Sun Mon Tue Wed Thu
-        Aug | Sat Sun Mon Tue Wed Thu Fri
-Feb Mar Nov | Sun Mon Tue Wed Thu Fri Sat
+            ┌────────────────────────────
+        Jun │ Mon Tue Wed Thu Fri Sat Sun
+    Sep Dec │ Tue Wed Thu Fri Sat Sun Mon
+    Apr Jul │ Wed Thu Fri Sat Sun Mon Tue
+    Jan Oct │ Thu Fri Sat Sun Mon Tue Wed
+        May │ Fri Sat Sun Mon Tue Wed Thu
+        Aug │ Sat Sun Mon Tue Wed Thu Fri
+Feb Mar Nov │ Sun Mon Tue Wed Thu Fri Sat
 ```
 
 If no year is specified, the current year is used.
@@ -46,25 +46,25 @@ $ python one_page_calendar.py
               15  16  17  18  19  20  21
               22  23  24  25  26  27  28
               29  30  31
-            ┌----------------------------
-        Jun | Mon Tue Wed Thu Fri Sat Sun
-    Sep Dec | Tue Wed Thu Fri Sat Sun Mon
-Jan Apr Jul | Wed Thu Fri Sat Sun Mon Tue
-        Oct | Thu Fri Sat Sun Mon Tue Wed
-        May | Fri Sat Sun Mon Tue Wed Thu
-    Feb Aug | Sat Sun Mon Tue Wed Thu Fri
-    Mar Nov | Sun Mon Tue Wed Thu Fri Sat
+            ┌────────────────────────────
+        Jun │ Mon Tue Wed Thu Fri Sat Sun
+    Sep Dec │ Tue Wed Thu Fri Sat Sun Mon
+Jan Apr Jul │ Wed Thu Fri Sat Sun Mon Tue
+        Oct │ Thu Fri Sat Sun Mon Tue Wed
+        May │ Fri Sat Sun Mon Tue Wed Thu
+    Feb Aug │ Sat Sun Mon Tue Wed Thu Fri
+    Mar Nov │ Sun Mon Tue Wed Thu Fri Sat
 ```
 
 ---
 
 ## How to read the one page calendar
 
-This variant of the one page calendar is really a glorified day look-up calendar. Given a date, you can look up what day it falls on.
+This variant of the one page calendar is really a glorified **day** look-up calendar. Given a *date*, you can look up what **day** it falls on.
 
 For example,
 
-> "What day does the 26th of January fall on this year?"
+> "What **day** does the *26th of January* fall on this year?"
 
 1. Find 26 on the left hand side
 2. Find Jan at the top.
@@ -77,7 +77,7 @@ Source: [Reddit](https://www.reddit.com/r/coolguides/comments/ad5dbu/onr_page_ca
 
 Another way to use it is to help answer a question such as,
 
-> "How many Friday the 13ths are there this year?"
+> "How many *Friday the 13ths* are there this year?"
 
 1. Find 13 on the left hand side
 2. Follow the days horizontally (from left to right) until you find Friday.
